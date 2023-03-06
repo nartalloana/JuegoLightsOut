@@ -30,4 +30,22 @@ import java.util.Scanner;
 	            }
 	        }
         }
+			private void permuta(int row, int col) {
+	        if (row >= 0 && row < size && col >= 0 && col < size) {
+	            lights[row][col] = !lights[row][col];
+	            if (row > 0) {
+	                lights[row - 1][col] = !lights[row - 1][col];
+	            }
+	            if (row < size - 1) {
+	                lights[row + 1][col] = !lights[row + 1][col];
+	            }
+	            if (col > 0) {
+	                lights[row][col - 1] = !lights[row][col - 1];
+	            }
+	            if (col < size - 1) {
+	                lights[row][col + 1] = !lights[row][col + 1];
+	            }
+	        }
+	    }
+
     }
