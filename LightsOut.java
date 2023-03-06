@@ -14,5 +14,20 @@ import java.util.Scanner;
 	                lights[i][j] = false;
 	            }
 	        }
+
+			while (true) {
+	            System.out.println();
+	            imprimirTablero();
+
+	            System.out.print("Introduzca fila y columna: ");
+	            int row = scanner.nextInt();
+	            int col = scanner.nextInt();
+	            permuta(row, col);
+
+	            if (seAcabo()) {
+	                System.out.println("FINOOO CHAVAL!!!");
+	                break;
+	            }
+	        }
         }
     }
