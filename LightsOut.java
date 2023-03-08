@@ -59,4 +59,12 @@ import java.util.Scanner;
 	        return true;
 	    }
 
+		private void imprimirTablero(){
+
+		}
+
+		public static void main(String [] args){
+			
+		}
+
     }
