@@ -18,7 +18,7 @@ Una vez aceptada la solicitud, se comienza a trabajar en remoto con los integran
 > git clone https://github.com/nartalloana/JuegoLightsOut
 2. El colaborador tiene que moverse a la carpeta JuegoLightsOut que se ha creado después de clonación con el comando:
 > cd JuegoLightsOut 
-3. cada colaborador en su repositorio local modifica el archivo Java añadiendo una parte del código elaborado.
+3. Cada colaborador en su repositorio local modifica el archivo Java añadiendo una parte del código elaborado.
 4. Se añaden los cambios al stage con el comando:
 > git add .
 5. Se crea un commit con el comentario correspondiente:
