@@ -13,3 +13,16 @@ Una vez aceptada la solicitud, se comienza a trabajar en remoto con los integran
 > git commit -m ""
 5. Se suben los cambios al repositorio remoto:
 > git push -u origin main
+## Pasos de los colaboradores
+1. Se clona el proyecto y sus archivos al repositorio local con el comando:
+> git clone https://github.com/nartalloana/JuegoLightsOut
+2. El colaborador tiene que moverse a la carpeta JuegoLightsOut que se ha creado después de clonación con el comando:
+> cd JuegoLightsOut 
+3. cada colaborador en su repositorio local modifica el archivo Java añadiendo una parte del código elaborado.
+4. Se añaden los cambios al stage con el comando:
+> git add .
+5. Se crea un commit con el comentario correspondiente:
+> git commit -m ""
+6.  Se suben los cambios al repositorio remoto:
+> git push -u origin main
+
